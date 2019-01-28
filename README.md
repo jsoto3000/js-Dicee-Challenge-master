@@ -8,8 +8,10 @@
 
 <a name="about"></a>
 ## About
-In this code along I refactored the provided starter files using
-HTML, CSS, and JavaScript.
+In this code along I updated the provided starter files using
+HTML, CSS, and JavaScript files to complete the dicee game
+challenge. I deviated from the original instructions to include
+a reset button.
 
 <a name="features"></a>
 ## Features
