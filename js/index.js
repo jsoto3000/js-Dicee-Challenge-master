@@ -38,3 +38,16 @@ if (randomNumber1 > randomNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "It's a Draw!";
 }
+
+
+document.getElementById("button").addEventListener("click", function(){
+
+  document.querySelector("h1").innerHTML = "Refresh Me";
+
+  var img1 = document.getElementsByClassName("img1");
+  img1[0].setAttribute("src", "images/dice6.png");
+
+  var img2 = document.getElementsByClassName("img2");
+  img2[0].setAttribute("src", "images/dice6.png");
+
+});
